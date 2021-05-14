@@ -5,6 +5,7 @@
 .day-dayNight {
 	display: flex;
 	justify-content: space-between;
+	font-size: 20px;
 }
 
 .day-day {
