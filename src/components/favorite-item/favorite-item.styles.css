@@ -1,0 +1,28 @@
+.favorite-item-link {
+    color: black;
+}
+.favorite-item-link:hover {
+	text-decoration: none;
+  }
+
+.favorite-item-card {
+	width: '16rem';
+}
+
+.favorite-item-container {
+	padding: 20px;
+}
+
+.favorite-item-remove {
+	padding-top: 20px;
+}
+
+.favorite-item-card-header {
+	background-color: rgb(247, 247, 207);
+	height: 120px;
+}
+@media screen and (max-width: 1100px) {
+	.favorite-item-card {
+		width: '17rem';
+	}
+}

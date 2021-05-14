@@ -1,0 +1,3 @@
+export const CHANGE_MEASURE = 'CHANGE_MEASURE';
+export const CHANGE_THEME = 'CHANGE_THEME';
+export const CHANGE_TOGGLE = 'CHANGE_TOGGLE';

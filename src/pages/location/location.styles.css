@@ -1,0 +1,43 @@
+.location-main-container {
+    padding: 20px;
+}
+
+.location-search-container {
+    padding: 0px 20px 65px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.location-search {
+    position: absolute;
+    padding-left: 15px;
+}
+
+.location-city {
+    border: 1px solid green; 
+    padding-top: 30px;   
+}
+
+.location-forecast-title {
+    padding: 30px 0px;
+    font-size: 26px;
+}
+
+.location-forecast {
+    padding: 15px 20px 40px 20px;
+}
+
+.location-current {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+@media screen and (max-width: 800px) {
+    .location-main-container {
+        padding: 10px;
+    }
+    .location-current {
+        grid-template-columns: 1fr;
+    }
+}

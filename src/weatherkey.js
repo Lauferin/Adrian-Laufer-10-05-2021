@@ -1,0 +1,1 @@
+export const keyWeather = 'GV8vMCphMAMrzlAwZp6YrDxlAPBGOmGk';

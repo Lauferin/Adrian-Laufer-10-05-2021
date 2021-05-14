@@ -1,0 +1,39 @@
+.header-main-container {
+    background-color: #251e1c;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.header-logo-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.header-options {
+    padding: 0px 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .header-main-container {
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 10px 20px 10px 10px;
+    }
+    .header-logo-container {
+        justify-content: left;
+        padding: 5px 0px 5px 10px;
+    }
+    .header-logo-title-container {
+        padding: 5px 0px 0px 20px;
+        font-size: 25px;
+    }
+}
